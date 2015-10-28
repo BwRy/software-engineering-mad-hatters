@@ -1,0 +1,20 @@
+plays MP3s and at least one other format
+plays mpg and avi?
+scans file system for media files
+	-Notes audio versus video
+	-Stores in SQLite DB -- make sure you application is resistant to SQL injection
+gathers info from mp3 files (artist, album name, year, whatever is there) and includes this in DB
+allows searches
+	-By artist
+	-By genre
+volume control
+advance through song
+playlist (will play each song in order)
+	-Advance through playlist
+song loop option
+intuitive interface, can be console or GUI -- include error checking etc. such that invalid input cannot be entered and program cannot be crashed
+apply good OO principles throughout
+	-Patterns where appropriate
+	-Interfaces where productive
+	-Testable code (unit tests are required)
+Use a SQLite database to store all file information.  Make sure your application is resistant to SQL Injection attacks.
